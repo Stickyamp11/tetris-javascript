@@ -1,0 +1,72 @@
+#start-game{
+    background-color: rgba(187, 230, 69, 0.548);
+    width: 30vw;
+    height: 20vh;
+    transition: .3s;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+    font-size: large;
+    border: 2px solid rgb(122, 122, 90);
+}
+#start-game:hover{
+    background-color: rgb(37, 31, 75);
+}
+
+#app{
+    display: flex; justify-content: center; align-items: center;
+    flex-direction: column;
+    width: 97vw;
+    margin-top: 5rem;
+}
+#canvas{
+    border-radius: 10px;
+    border: 10px solid rgb(177, 172, 100);
+}
+
+#game-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 97vw;
+    height: 100vh;
+    position: absolute;
+    background-color: black;
+    top: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 0;
+    height: 0;
+    background-color: black;
+}
+
+#reset-game{
+    padding: 8px;
+    background-color: rgb(62, 85, 77);
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+    transition: .2s;
+}
+#reset-game:hover{
+    background-color: rgb(36, 46, 42);
+    border-radius: 10px;
+}
+
+.made-by-manu{
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    right: 20px;
+    bottom: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.scored{
+    color: white;
+    padding: 16px;
+}
